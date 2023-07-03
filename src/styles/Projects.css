@@ -1,0 +1,97 @@
+.projects {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+.title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222222;
+  font-size: 1.5rem;
+  margin-top: 5px;
+  border-bottom: 3px solid #333333;
+}
+
+  .projects .projectTitle {
+    text-align: center;
+    color: #3e497a;
+    font-size: 60px;
+    font-weight: bolder;
+  }
+  
+  .projectList {
+    width: 100vw;
+    /* height: auto; */
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    /* place-items: center; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  
+  /* MENU ITEM STYLING */
+  
+  .projectItem {
+    border-radius: 5px;
+    width: 300px;
+    height: 350px;
+    /* height: 300px; */
+    margin: 10px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .projectItem:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+  
+  .projectItem .bgImage {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .projectItem h1 {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333333;
+  }
+
+  .projectItem h1:hover {
+    color: #F26D50;
+  }
+
+  .icons {
+    background-color: aqua;
+  }
+
+  /* @media only screen and (max-width: 600px) {
+
+    .projectItem {
+      width: 200px;
+      height: 200px;
+    }
+
+    .projectItem h1 {
+      font-size: 0.8rem;
+      
+    }
+    
+  } */
