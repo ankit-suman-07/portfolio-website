@@ -54,7 +54,11 @@ const AboutMe = () => {
             <div className="title" >SKILLS</div> 
                 <div className="tech-skills" >
                 <table>
+                    <tbody>
+                    <tr>
                     <th colSpan={2} >Tech - Skills</th>
+                    </tr>
+                    
                     <tr>
                         <td className="full" >React JS, Firebase</td>
                     </tr>
@@ -70,11 +74,16 @@ const AboutMe = () => {
                     <tr>
                         <td className="full" >Linux</td>
                     </tr>
+                    </tbody>
                 </table>
                 </div>
                 <div className="soft-skills" >
                 <table>
-                    <th colSpan={2} >Soft - Skills</th>
+                    <tbody>
+                    <tr>
+                        <th colSpan={2} >Soft - Skills</th>
+                    </tr>
+                    
                     <tr>
                         <td className="full" >Team Player</td>
                     </tr>
@@ -87,6 +96,7 @@ const AboutMe = () => {
                     <tr>
                         <td className="full" >Creativity</td>
                     </tr>
+                    </tbody>
                 </table>
                 </div>
             </div>    
