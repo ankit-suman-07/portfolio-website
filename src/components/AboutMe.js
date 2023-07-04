@@ -11,7 +11,11 @@ const AboutMe = () => {
                 <div className="certification" >
                 
                 <table>
-                <th colSpan={2} >Full Stack Development Bootcamp - JavaScript</th>
+                <tbody>
+                    <tr>
+                    <th colSpan={2} >Full Stack Development Bootcamp - JavaScript</th>
+                    </tr>
+                
                     <tr>
                         <td className="left" >Organisation :</td>
                         <td className="right" >upGrad</td>
@@ -24,12 +28,16 @@ const AboutMe = () => {
                         <td colSpan={2} className="date" >27th March, 23 - 26th Sept., 23 </td>
                     </tr>
                     
-                    
+                    </tbody>
                 </table>
                 </div>
                 <div className="college" >
                 <table>
-                    <th colSpan={2} >Computer Science</th>
+                    <tbody>
+                        <tr>
+                        <th colSpan={2} >Computer Science</th>
+                        </tr>
+                    
                     <tr>
                         <td className="left" >College :</td>
                         <td className="right" >Sahyadri College of Engineering & Management</td>
@@ -47,6 +55,7 @@ const AboutMe = () => {
                     <tr>
                         <td colSpan={2}  className="date" >2017 - 2021 </td>
                     </tr>
+                    </tbody>
                 </table>
                 </div>
             </div>
